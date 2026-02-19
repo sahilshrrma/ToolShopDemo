@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="OlvjFRg0WEm5ZTSrw3tZGw" Reference="QUyr5HjRO0207_LWey3M3w/xtdPwa61xU-G3uR1nUe5jA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="sKTmWIrqik6hQxivj4Jw9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="579e0787-a921-4217-a467-68347ed92daf" CvElementArea="1563, 644, 217, 51" CvTextArea="1580, 661, 185, 18" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1566, 646, 213, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' innertext='Proceed to checkout' /&gt;" Guid="b2b81e5e-d1a4-4c45-b1a5-c6458115df08" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="75c439ee3e3b90b6ebb24deb3a953433.jpg" xmlns="">00gUjY7is0EGGpX9v2wr9ZQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="45c5d50b-41c7-40a1-9112-f11232f4fe97" CvElementArea="1283, 517, 175, 41" CvTextArea="1297, 530, 147, 15" CvTextArgument="Proceed to checkout" CvType="Button" DesignTimeRectangle="1285, 519, 171, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Proceed to checkout' tag='BUTTON' type='button' innertext='Proceed to checkout' /&gt;" Guid="6518d61d-709d-4105-89fe-2d79d4f8c0f8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d0e087f274e54513b2c01b3ad2a6b61c.jpg" xmlns="">0FAAtngplj0SekB1wVeZxFw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

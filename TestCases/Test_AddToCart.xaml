@@ -89,59 +89,60 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="877.2,5924" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="965,9139" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="cartProductTitle" />
+      <Variable x:TypeArguments="x:String" Name="addedProductName" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="556.8,5900.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="560,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="560,8993" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="555.2,5408" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="558,8496" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Practice Software Testing - Toolshop -" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="521.6,5348" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="db459ec4-ad30-4418-b104-b10d370db10a" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Practice Software Testing - Toolshop -" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,8432" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="db459ec4-ad30-4418-b104-b10d370db10a" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,5150.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,8234" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState DisplayName="Check App State 'Searched for pliers'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,5086.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                  <uix:NCheckState DisplayName="Check App State 'Searched for pliers'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,8170" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,3455.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
-                        <Sequence.Variables>
-                          <Variable x:TypeArguments="x:String" Name="cartProductTitle" />
-                          <Variable x:TypeArguments="x:String" Name="addedProductName" />
-                        </Sequence.Variables>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,3643" sap2010:WorkflowViewState.IdRef="Sequence_3">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'on first product that appears'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'on first product that appears'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NClick.Target>
-                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com" ContentHash="jnUInjFp9k67iqeHuBB8ZA" DesignTimeRectangle="577, 447, 380, 468" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='card' tag='A' /&gt;" Guid="2a8d72c9-3472-4cde-99f1-d12e471a5f4e" InformativeScreenshot="41bc2ecdd9df7beb00a24229e9a01250.jpg" Reference="QUyr5HjRO0207_LWey3M3w/vueVP8AojUCmi_hqQZdRsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com" ContentHash="I3mdBDGmAket6R5NQ4Pl_g" DesignTimeRectangle="512, 447, 270, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='container' idx='3' /&gt;&lt;webctrl tag='H5' /&gt;" Guid="eef63e7f-bdbe-4809-8b33-8e4eaf5ccb8e" InformativeScreenshot="cfbec178f484e0b78307e9e1b9d6f04c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/vueVP8AojUCmi_hqQZdRsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">"Clicked on First Product that appears"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,146.4" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NGetText.Target>
-                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" ContentHash="RKevQ_2oQUqUz7GpI_Mczg" DesignTimeRectangle="975, 353, 795, 120" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' data-test='product-name' /&gt;" Guid="21da4476-318b-46c5-a944-801b5c927aff" InformativeScreenshot="6e86291b44f31c767bf9cae56f5ab143.jpg" Reference="QUyr5HjRO0207_LWey3M3w/wC7TcoGIJk2H_zQqJ52FRQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" ContentHash="eckn3zo1CESUk4Dyc5GJgg" DesignTimeRectangle="813, 284, 636, 96" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' data-test='product-name' /&gt;" Guid="21da4476-318b-46c5-a944-801b5c927aff" InformativeScreenshot="0dd6b4a4214eb8c2704b327027fcc416.jpg" Reference="QUyr5HjRO0207_LWey3M3w/wC7TcoGIJk2H_zQqJ52FRQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NGetText.Target>
                           <uix:NGetText.TextString>
                             <OutArgument x:TypeArguments="x:String">
@@ -149,7 +150,14 @@
                             </OutArgument>
                           </uix:NGetText.TextString>
                         </uix:NGetText>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,318.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="6" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_24" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">"added product is1 " + addedProductName</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="6" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NMouseScroll.SearchedElement>
                             <uix:SearchedElement>
                               <uix:SearchedElement.InUiElement>
@@ -167,14 +175,14 @@
                             </uix:SearchedElement>
                           </uix:NMouseScroll.SearchedElement>
                         </uix:NMouseScroll>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">"mouse Scrolled down till Add to cart"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NClick ActivateBefore="True" DelayBefore="2" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NClick ActivateBefore="True" DelayBefore="2" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NClick.ClickType>
                             <InArgument x:TypeArguments="uix:NClickType">
                               <CSharpValue x:TypeArguments="uix:NClickType" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">UiPath.UIAutomationNext.Enums.NClickType.Single</CSharpValue>
@@ -184,26 +192,26 @@
                             <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="e6c2636b-f5c6-4645-ae46-a7b4013bb7aa" ContentHash="105GGtgr7kqspvCB3Zts8Q" CvElementArea="1072, 847, 61, 51" CvTextArea="1091, 861, 20, 21" CvTextArgument="+" CvType="Button" DesignTimeRectangle="1090, 862, 25, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='btn-increase-quantity' tag='svg' data-icon='plus' /&gt;" Guid="1dbd0706-7c20-4d01-a017-2476ba37861b" InformativeScreenshot="4651a1b88281900f6947fbad41f1d195.jpg" Reference="QUyr5HjRO0207_LWey3M3w/9SzaK7G380Kb42W8Kh6Mzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">"Clicked on increase quantity"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Add to cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Add to cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="b535c556-c5be-4397-92d7-cf6e8f64365b" ContentHash="0l2rbm--eEC1feYETNKqZA" CvElementArea="974, 904, 166, 50" CvTextArea="1022, 920, 104, 18" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 905, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="a2d4df47-e43c-4601-b07f-30b018c59666" InformativeScreenshot="63c1784ea610fce8c5a8fe47c40e48ff.jpg" Reference="QUyr5HjRO0207_LWey3M3w/utudQ17bTE6h6YGaTHwMrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"clicked on Add to Cart"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,318.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="6" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="6" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NMouseScroll.Direction>
                             <InArgument x:TypeArguments="uix:NScrollDirection">
                               <CSharpValue x:TypeArguments="uix:NScrollDirection" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">UiPath.UIAutomationNext.Enums.NScrollDirection.Up</CSharpValue>
@@ -220,7 +228,7 @@
                               <uix:SearchedElement.Target>
                                 <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" CVScreenId="ccb6612c-edba-4cdc-8d8f-4798396972ea" ContentHash="ZY8L2Lfzy0G3XQHPuADO6A" CvElementArea="1631, 256, 54, 40" CvType="Icon" DesignTimeRectangle="1634, 273, 25, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' tag='svg' /&gt;" Guid="9e3bc8a8-4271-46d0-a8e5-2235abf21436" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFbSURBVEhLtZWxagJBEIZ9KduksrIQIeEaC9ugJF0aIbEQLNLqM5jUSSXxCVJECwshpAgK1lZJmg2/MMcyc7s7kzuLD4TV/9vZmV1r3z+/rko+z1vuo96IUuM/KgsXFJFL35crN5lMj+DzdrcTgRpMlfZ6fZdlWc7s8UkEavjqXAkJJ5eiMlQIaAP3w6GZ56wrJJzCnvKqLdy2LoSEUyhFX3mYhZezphAlpa+LhQiycNO+FKKkFH3lQVbGzbaQRaWAh/yH+d1ICKPSMsNEoE2H9cZtrwc6Kcafh1jxH5jD29LtH6bHexyUlp1gnBTPJILSshOMYeSZSSlNMHZML5UGzZsdlAIaJk2QhagUjz4dFzagQfNHEZWS2HJ9MAs8g5OUngKVFNXiCoV6iwHCOqoMfccnKfX7igeDrwP/TlfSUz8wdOH9nlcixXGhQrqvfB3gWLEea4FPUnoK/gCj4IIhNWGbOwAAAABJRU5ErkJggg==" InformativeScreenshot="def76f96c0bae737a4b140f33d907c91.jpg" Reference="QUyr5HjRO0207_LWey3M3w/FB0d1tMl70iLrFRpUwZ-OQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                   <uix:TargetAnchorable.Anchors>
-                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                       <uix:Target CVScreenId="ccb6612c-edba-4cdc-8d8f-4798396972ea" CvElementArea="1689, 269, 29, 28" CvType="Icon" DesignTimeRectangle="1691, 273, 25, 20" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='language' tag='svg' /&gt;" Guid="08269eeb-e80b-4349-9004-bb41e08b31fa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFRSURBVEhL1ZTBCQJBDEW3FQ8e7EHwYBEeBIsQBJsQwSZE7EK0DNEy1MvKH/gQ/yYzg8iCh89qdiYv+Zmd5vF8tX2r0UAf+h/o/nBsB8NReuL/9XZP0nWRqqDL1bodT6bpN5IDSBGG91hXA89CkWA2X6Tkm+0uxZDYQvEecXYPeAkcQrERCZiIMQv0uq0Bh1B2aLvEU4EQZ2tdoAOeXOjpfPlISqgtxEot1mJULlSTowjEaZ+K9muxUbcdqDc3zkfjuia3NwvVaqGoGC+5uuFZ3IH2IRdKq6gororWaf4OVE9grb08bBrnyc9CvY2sVuNWUWGaO4TqYfj2k2Fc5UL15uEJ1O9Xk+s+z9oQCtmucL0h5s3bJrfQqMssFPOxYM7Vs5h7LJAj8RRCFRxZzKuOXZaARSgEMOylxTkHuKakIpSyHzm6AsRecd4lEKka+ku9ARpPpjwIMSoXAAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
                                     </scg:List>
                                   </uix:TargetAnchorable.Anchors>
@@ -232,26 +240,26 @@
                             </uix:SearchedElement>
                           </uix:NMouseScroll.SearchedElement>
                         </uix:NMouseScroll>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">"mouse scrolled up till cart Icon"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'on cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'on cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" CVScreenId="f772701e-b214-4a38-bbed-84e22a8ebf50" ContentHash="YvqhBOi3Kk2c4ZZk43-S7A" CvElementArea="1631, 256, 55, 40" CvType="Icon" DesignTimeRectangle="1634, 272, 22, 21" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='navbarSupportedContent' tag='path' /&gt;" Guid="c0e74bba-d258-40b6-9378-039ea72b67d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVEhLtZS/agJBEId9qbRapbIQwbCNRVpRks4mkFwRyAucz6DWWok+Q2JhIYQU4e4FUiVpNvyEkc0sczt7exYfCHszn/Nnt/X982ub5HM4su9X1x4t/mEqH52eJ7mIiAs80evb3ub57AR+F2XpJdEQrGg8nlhjzJn5Yukl0RCcESpAJYCkT1kWzcrcepJ/IhdeXQzT3sCTiCLMiSeIYd3u6kTb3c4LjuG+f6MTYU48OJaXbj8sAjywDpvH57AoZSEIjODrcLTF3YMswqrywFjcSy+KUjcPHXHziaLUzcNCqUS0efhn9GJokN5IUQRoIaTgGCpFeFipFZBqkB7jShHJYlYds+U5VKKmUIlQFdZdmhWWAOeoRvomKHLnhEvMz4F752rPyE3CLyHhzrC2CK1AJXSf+DlAy3Be1d6gqCn+AEUC+5PGEjrIAAAAAElFTkSuQmCC" InformativeScreenshot="ca34be6620aaedf6302b9f98de4c6db3.jpg" Reference="QUyr5HjRO0207_LWey3M3w/o_aQOTB0p0Sg7o6HeKvmLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">"Clicked on Cart Icon"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,146.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NGetText.Target>
                             <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9d319fe0-815d-478c-9fab-a08ce0f6b4dd" ContentHash="u0dWEf3qOk6wXJqCKSM0iw" CvType="AnyWordGroup" DesignTimeRectangle="169, 518, 367, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='SPAN' class='product-title' /&gt;" Guid="1a137150-257b-4e78-9954-209cafcd79c8" InformativeScreenshot="6fb688de2b918e4bd7b9a5815621614c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/gf_tMD9l4kmREBRSiTU6bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                           </uix:NGetText.Target>
@@ -261,20 +269,20 @@
                             </OutArgument>
                           </uix:NGetText.TextString>
                         </uix:NGetText>
-                        <If sap:VirtualizedContainerService.HintSize="451.2,600.8" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If sap:VirtualizedContainerService.HintSize="452,602" sap2010:WorkflowViewState.IdRef="If_1">
                           <If.Condition>
                             <InArgument x:TypeArguments="x:Boolean">
                               <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">cartProductTitle.Equals(addedProductName)</CSharpValue>
                             </InArgument>
                           </If.Condition>
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_5">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
                                 <ui:LogMessage.Message>
                                   <InArgument x:TypeArguments="x:Object">
                                     <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">"Product added successfully"</CSharpValue>
@@ -284,16 +292,16 @@
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_6">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Error">
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Error">
                                 <ui:LogMessage.Message>
                                   <InArgument x:TypeArguments="x:Object">
-                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">"add to cart of product get failed"</CSharpValue>
+                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">"add to cart of product get failed1" + "cart product tilt is"+ cartProductTitle +"AddedProductNAme is "+ addedProductName</CSharpValue>
                                   </InArgument>
                                 </ui:LogMessage.Message>
                               </ui:LogMessage>
@@ -303,37 +311,59 @@
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,1291.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,4187" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"Entered into target does not appear"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Test_Search - Invoke Workflow File (TestCases\Test_Search.xaml)" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="TestCases\Test_Search.xaml">
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="Test_Search - Invoke Workflow File (TestCases\Test_Search.xaml)" sap:VirtualizedContainerService.HintSize="452,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="TestCases\Test_Search.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
                             <scg:Dictionary x:TypeArguments="x:String, Argument" />
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'on first product that appears'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NClick ActivateBefore="True" DelayBefore="7" DisplayName="Click 'on first product that appears'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NClick.ClickType>
+                            <InArgument x:TypeArguments="uix:NClickType">
+                              <CSharpValue x:TypeArguments="uix:NClickType" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">UiPath.UIAutomationNext.Enums.NClickType.Double</CSharpValue>
+                            </InArgument>
+                          </uix:NClick.ClickType>
                           <uix:NClick.Target>
-                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com" ContentHash="jnUInjFp9k67iqeHuBB8ZA" DesignTimeRectangle="577, 447, 380, 468" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='card' tag='A' /&gt;" Guid="2a8d72c9-3472-4cde-99f1-d12e471a5f4e" InformativeScreenshot="41bc2ecdd9df7beb00a24229e9a01250.jpg" Reference="QUyr5HjRO0207_LWey3M3w/vueVP8AojUCmi_hqQZdRsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com" ContentHash="I3mdBDGmAket6R5NQ4Pl_g" DesignTimeRectangle="512, 447, 270, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='container' idx='3' /&gt;&lt;webctrl tag='H5' /&gt;" Guid="eef63e7f-bdbe-4809-8b33-8e4eaf5ccb8e" InformativeScreenshot="cfbec178f484e0b78307e9e1b9d6f04c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/vueVP8AojUCmi_hqQZdRsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                           </uix:NClick.Target>
                         </uix:NClick>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">"clicked on first product that appears"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
-                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,318.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" ContentHash="eckn3zo1CESUk4Dyc5GJgg" DesignTimeRectangle="813, 284, 636, 96" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' data-test='product-name' /&gt;" Guid="21da4476-318b-46c5-a944-801b5c927aff" InformativeScreenshot="0dd6b4a4214eb8c2704b327027fcc416.jpg" Reference="QUyr5HjRO0207_LWey3M3w/wC7TcoGIJk2H_zQqJ52FRQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NGetText.Target>
+                          <uix:NGetText.TextString>
+                            <OutArgument x:TypeArguments="x:String">
+                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">addedProductName</CSharpReference>
+                            </OutArgument>
+                          </uix:NGetText.TextString>
+                        </uix:NGetText>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">"added product is2 " + addedProductName</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
                           <uix:NMouseScroll.SearchedElement>
                             <uix:SearchedElement>
                               <uix:SearchedElement.InUiElement>
@@ -343,7 +373,13 @@
                                 <OutArgument x:TypeArguments="ui:UiElement" />
                               </uix:SearchedElement.OutUiElement>
                               <uix:SearchedElement.Target>
-                                <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" CVScreenId="cc978908-f030-4e41-a55b-9330b90d74c3" ContentHash="na_mb3_dNUWbBHK-Ci1YZA" CvElementArea="973, 741, 166, 51" CvTextArea="1022, 757, 104, 19" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 742, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="ff680355-682d-42b1-b842-7e090c244b42" InformativeScreenshot="3c3d2402a2db773bf3db237e964b3349.jpg" Reference="QUyr5HjRO0207_LWey3M3w/0mGvuz7UvUW8wFMzrh_reg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" CVScreenId="cc978908-f030-4e41-a55b-9330b90d74c3" ContentHash="XVRMXz2_zEeWMF_dGN-pPA" DesignTimeRectangle="813, 722, 133, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="ff680355-682d-42b1-b842-7e090c244b42" InformativeScreenshot="68a53597b80260cc31e65b19da2441f7.jpg" Reference="QUyr5HjRO0207_LWey3M3w/0mGvuz7UvUW8wFMzrh_reg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="7d90b993-ca6d-4ba2-bebd-389a5803079e" CvTextArea="811, 740, 211, 19" CvTextArgument="Vestibulum vel dapibus dolor." CvType="Text" DesignTimeRectangle="811, 740, 211, 19" ElementType="Text" Guid="1cafc217-2a0f-454e-8600-f79b18dce082" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
                               </uix:SearchedElement.Target>
                               <uix:SearchedElement.Timeout>
                                 <InArgument x:TypeArguments="x:Double" />
@@ -351,13 +387,146 @@
                             </uix:SearchedElement>
                           </uix:NMouseScroll.SearchedElement>
                         </uix:NMouseScroll>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
                           <ui:LogMessage.Message>
                             <InArgument x:TypeArguments="x:Object">
                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"Scrolled to button add to cart"</CSharpValue>
                             </InArgument>
                           </ui:LogMessage.Message>
                         </ui:LogMessage>
+                        <uix:NClick ActivateBefore="True" DelayBefore="2" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NClick.ClickType>
+                            <InArgument x:TypeArguments="uix:NClickType">
+                              <CSharpValue x:TypeArguments="uix:NClickType" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">UiPath.UIAutomationNext.Enums.NClickType.Single</CSharpValue>
+                            </InArgument>
+                          </uix:NClick.ClickType>
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="e6c2636b-f5c6-4645-ae46-a7b4013bb7aa" ContentHash="105GGtgr7kqspvCB3Zts8Q" CvElementArea="1072, 847, 61, 51" CvTextArea="1091, 861, 20, 21" CvTextArgument="+" CvType="Button" DesignTimeRectangle="1090, 862, 25, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='btn-increase-quantity' tag='svg' data-icon='plus' /&gt;" Guid="1dbd0706-7c20-4d01-a017-2476ba37861b" InformativeScreenshot="4651a1b88281900f6947fbad41f1d195.jpg" Reference="QUyr5HjRO0207_LWey3M3w/9SzaK7G380Kb42W8Kh6Mzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">"Clicked on increase quantity"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Add to cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5C6SECRTR7FT97DR5K" CVScreenId="b535c556-c5be-4397-92d7-cf6e8f64365b" ContentHash="0l2rbm--eEC1feYETNKqZA" CvElementArea="974, 904, 166, 50" CvTextArea="1022, 920, 104, 18" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 905, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="a2d4df47-e43c-4601-b07f-30b018c59666" InformativeScreenshot="63c1784ea610fce8c5a8fe47c40e48ff.jpg" Reference="QUyr5HjRO0207_LWey3M3w/utudQ17bTE6h6YGaTHwMrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">"clicked on Add to Cart"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">"clicked on Add to Cart"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NMouseScroll KeyModifiers="{x:Null}" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,319" sap2010:WorkflowViewState.IdRef="NMouseScroll_5" InteractionMode="HardwareEvents" MovementUnits="6" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NMouseScroll.Direction>
+                            <InArgument x:TypeArguments="uix:NScrollDirection">
+                              <CSharpValue x:TypeArguments="uix:NScrollDirection" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">UiPath.UIAutomationNext.Enums.NScrollDirection.Up</CSharpValue>
+                            </InArgument>
+                          </uix:NMouseScroll.Direction>
+                          <uix:NMouseScroll.SearchedElement>
+                            <uix:SearchedElement>
+                              <uix:SearchedElement.InUiElement>
+                                <InArgument x:TypeArguments="ui:UiElement" />
+                              </uix:SearchedElement.InUiElement>
+                              <uix:SearchedElement.OutUiElement>
+                                <OutArgument x:TypeArguments="ui:UiElement" />
+                              </uix:SearchedElement.OutUiElement>
+                              <uix:SearchedElement.Target>
+                                <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" CVScreenId="ccb6612c-edba-4cdc-8d8f-4798396972ea" ContentHash="ZY8L2Lfzy0G3XQHPuADO6A" CvElementArea="1631, 256, 54, 40" CvType="Icon" DesignTimeRectangle="1634, 273, 25, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' tag='svg' /&gt;" Guid="9e3bc8a8-4271-46d0-a8e5-2235abf21436" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFbSURBVEhLtZWxagJBEIZ9KduksrIQIeEaC9ugJF0aIbEQLNLqM5jUSSXxCVJECwshpAgK1lZJmg2/MMcyc7s7kzuLD4TV/9vZmV1r3z+/rko+z1vuo96IUuM/KgsXFJFL35crN5lMj+DzdrcTgRpMlfZ6fZdlWc7s8UkEavjqXAkJJ5eiMlQIaAP3w6GZ56wrJJzCnvKqLdy2LoSEUyhFX3mYhZezphAlpa+LhQiycNO+FKKkFH3lQVbGzbaQRaWAh/yH+d1ICKPSMsNEoE2H9cZtrwc6Kcafh1jxH5jD29LtH6bHexyUlp1gnBTPJILSshOMYeSZSSlNMHZML5UGzZsdlAIaJk2QhagUjz4dFzagQfNHEZWS2HJ9MAs8g5OUngKVFNXiCoV6iwHCOqoMfccnKfX7igeDrwP/TlfSUz8wdOH9nlcixXGhQrqvfB3gWLEea4FPUnoK/gCj4IIhNWGbOwAAAABJRU5ErkJggg==" InformativeScreenshot="def76f96c0bae737a4b140f33d907c91.jpg" Reference="QUyr5HjRO0207_LWey3M3w/FB0d1tMl70iLrFRpUwZ-OQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="ccb6612c-edba-4cdc-8d8f-4798396972ea" CvElementArea="1689, 269, 29, 28" CvType="Icon" DesignTimeRectangle="1691, 273, 25, 20" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='language' tag='svg' /&gt;" Guid="08269eeb-e80b-4349-9004-bb41e08b31fa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFRSURBVEhL1ZTBCQJBDEW3FQ8e7EHwYBEeBIsQBJsQwSZE7EK0DNEy1MvKH/gQ/yYzg8iCh89qdiYv+Zmd5vF8tX2r0UAf+h/o/nBsB8NReuL/9XZP0nWRqqDL1bodT6bpN5IDSBGG91hXA89CkWA2X6Tkm+0uxZDYQvEecXYPeAkcQrERCZiIMQv0uq0Bh1B2aLvEU4EQZ2tdoAOeXOjpfPlISqgtxEot1mJULlSTowjEaZ+K9muxUbcdqDc3zkfjuia3NwvVaqGoGC+5uuFZ3IH2IRdKq6gororWaf4OVE9grb08bBrnyc9CvY2sVuNWUWGaO4TqYfj2k2Fc5UL15uEJ1O9Xk+s+z9oQCtmucL0h5s3bJrfQqMssFPOxYM7Vs5h7LJAj8RRCFRxZzKuOXZaARSgEMOylxTkHuKakIpSyHzm6AsRecd4lEKka+ku9ARpPpjwIMSoXAAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:SearchedElement.Target>
+                              <uix:SearchedElement.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:SearchedElement.Timeout>
+                            </uix:SearchedElement>
+                          </uix:NMouseScroll.SearchedElement>
+                        </uix:NMouseScroll>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">"mouse scrolled up till cart Icon"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'on cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" CVScreenId="f772701e-b214-4a38-bbed-84e22a8ebf50" ContentHash="YvqhBOi3Kk2c4ZZk43-S7A" CvElementArea="1631, 256, 55, 40" CvType="Icon" DesignTimeRectangle="1634, 272, 22, 21" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='navbarSupportedContent' tag='path' /&gt;" Guid="c0e74bba-d258-40b6-9378-039ea72b67d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVEhLtZS/agJBEId9qbRapbIQwbCNRVpRks4mkFwRyAucz6DWWok+Q2JhIYQU4e4FUiVpNvyEkc0sczt7exYfCHszn/Nnt/X982ub5HM4su9X1x4t/mEqH52eJ7mIiAs80evb3ub57AR+F2XpJdEQrGg8nlhjzJn5Yukl0RCcESpAJYCkT1kWzcrcepJ/IhdeXQzT3sCTiCLMiSeIYd3u6kTb3c4LjuG+f6MTYU48OJaXbj8sAjywDpvH57AoZSEIjODrcLTF3YMswqrywFjcSy+KUjcPHXHziaLUzcNCqUS0efhn9GJokN5IUQRoIaTgGCpFeFipFZBqkB7jShHJYlYds+U5VKKmUIlQFdZdmhWWAOeoRvomKHLnhEvMz4F752rPyE3CLyHhzrC2CK1AJXSf+DlAy3Be1d6gqCn+AEUC+5PGEjrIAAAAAElFTkSuQmCC" InformativeScreenshot="ca34be6620aaedf6302b9f98de4c6db3.jpg" Reference="QUyr5HjRO0207_LWey3M3w/o_aQOTB0p0Sg7o6HeKvmLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_20" Level="Info">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">"Clicked on Cart Icon"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                        <uix:NGetText DisplayName="Get Text 'Claw Hammer with Shock …(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,147" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="db459ec4-ad30-4418-b104-b10d370db10a" Version="V5">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="practicesoftwaretesting.com/checkout" CVScreenId="9d319fe0-815d-478c-9fab-a08ce0f6b4dd" ContentHash="u0dWEf3qOk6wXJqCKSM0iw" CvType="AnyWordGroup" DesignTimeRectangle="169, 518, 367, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='SPAN' class='product-title' /&gt;" Guid="1a137150-257b-4e78-9954-209cafcd79c8" InformativeScreenshot="6fb688de2b918e4bd7b9a5815621614c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/gf_tMD9l4kmREBRSiTU6bw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                          </uix:NGetText.Target>
+                          <uix:NGetText.TextString>
+                            <OutArgument x:TypeArguments="x:String">
+                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">cartProductTitle</CSharpReference>
+                            </OutArgument>
+                          </uix:NGetText.TextString>
+                        </uix:NGetText>
+                        <If sap:VirtualizedContainerService.HintSize="452,602" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If.Condition>
+                            <InArgument x:TypeArguments="x:Boolean">
+                              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">cartProductTitle.Equals(addedProductName)</CSharpValue>
+                            </InArgument>
+                          </If.Condition>
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info">
+                                <ui:LogMessage.Message>
+                                  <InArgument x:TypeArguments="x:Object">
+                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">"Product added successfully"</CSharpValue>
+                                  </InArgument>
+                                </ui:LogMessage.Message>
+                              </ui:LogMessage>
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Error">
+                                <ui:LogMessage.Message>
+                                  <InArgument x:TypeArguments="x:Object">
+                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">"add to cart of product get failed2" + "cart product tilt is"+ cartProductTitle +"AddedProductNAme is "+ addedProductName</CSharpValue>
+                                  </InArgument>
+                                </ui:LogMessage.Message>
+                              </ui:LogMessage>
+                            </Sequence>
+                          </If.Else>
+                        </If>
                       </Sequence>
                     </uix:NCheckState.IfNotExists>
                     <uix:NCheckState.Target>
@@ -367,6 +536,11 @@
                 </Sequence>
               </ActivityAction>
             </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.CloseMode>
+              <InArgument x:TypeArguments="uix:NAppCloseMode">
+                <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+              </InArgument>
+            </uix:NApplicationCard.CloseMode>
             <uix:NApplicationCard.OCREngine>
               <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
                 <ActivityFunc.Argument>
@@ -374,8 +548,13 @@
                 </ActivityFunc.Argument>
               </ActivityFunc>
             </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.OpenMode>
+              <InArgument x:TypeArguments="uix:NAppOpenMode">
+                <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen</CSharpValue>
+              </InArgument>
+            </uix:NApplicationCard.OpenMode>
             <uix:NApplicationCard.TargetApp>
-              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="TPCYhp5yg0SLeefl6qo2ow" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOQSURBVDhPHdDpT9sFAMbxnzHxWDZlG4bAdNwbKFdxCSBzm4CwwcY1w8BJhxtyNMhYuWHQg1JaenFIgXK2UCgFWugBJVBQwMVX/gO+8I3xnfGFJr78mvHi8/KbPHmEnS07Ae8qAZ+DXZ+D/cA6R0EPPx75Of5pj5OTIMdnDjg5DXL66ojTn484Pj3k+PQIYddjx+e24d9axre1zK7PyV7Aze7OBnsBF4FdFwH/Ogd7Lg6DHg4PfQSDOxwc+Nnf9yI45gz4XYv4XFa8m1Z2vOsE/Jvs+DfweZy4XSusL5lZndVjmTSwtmbDt72CZ2uFbfcqwpZz4Sz2uGx4XTbc61amJ0xotRo6OjppkbZjHBml8bunpKWk8qjya5ZmjCzNmlhZNCP4tld5ze91srI8R6tUilj8lLrG5zQ2SXnyTEJ5hZi4qGhCzr2NKCmB6XEti9NGLD/oEM5mrttw2GdpqK8nOSmFiPBwKr/5lsFRC90DegoL7xMdFkJMWAi14kcsLUyemZnQI/h9bnxeN+pBFSLRDc69+w5vvfkGWaIU9F3P0UnrkVQWk5/xCV99mYVuoIepUQ2WcS1jwzIE75YTu22Oyqpq4mJiiQm/SHToeT6OuMTDglyK7peQf+8BdY/LkLc1YBlVM2lQYtYrMA29RLBOG5F1NpP7RQ6fpSaQk36dG/FXiAy9wPUkETfzS8nKKUT6opl5s555s47ZcQ3To2rGdAoE02A3jdVllORlIy7OpeR2OnfS4ki6GkpE2AekZd4hNSsPSX091plxZicMmEeGGNOr0A32Iwx0Smirq0QprUXeUsuzslweZCeTlfgRVy5fIDY+ke+LcvilvQqHUcHosAqDWo5W2YuypxVhRNWBWdPD/IiSGb2MvqYniIuyuZuRSMKHoRREXeTXqlT+6yzl1XAbU/pBxrRKdAN9qF62ISxOaLBbDMyPD2ExKhnqbqau4i7Fn4v49NpVSqPe56Agmr8kefyhrsOmUzCiljOk6KO/qx3BaZ1kY2ka25SRKcMAenkH0toqynMyuJ0Sz83Iy5hSQ/j9cRr/9Fawp37BhEaOVtGLrKsVYc02g2NxEuuUCcvrczT9yNsk1JTlU5SZTFZcBI2x5zkuiOJf6T1+G6zBoupCJ+tC2d2K4Nl04Fyawz5vZmHSyIReyUB3C03VDym/lc6txEjKIt9jLeMSfzdk8udQDVZlK3pZJ6oeKf8DaghvRLQAO+gAAAAASUVORK5CYII=" InformativeScreenshot="7c7da4805152e2177c1ad7f953d3ea9c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/DZMHxGj72Ua_-niX1_67VQ" Selector="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" Url="https://practicesoftwaretesting.com/" Version="V2">
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="TPCYhp5yg0SLeefl6qo2ow" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOQSURBVDhPHdDpT9sFAMbxnzHxWDZlG4bAdNwbKFdxCSBzm4CwwcY1w8BJhxtyNMhYuWHQg1JaenFIgXK2UCgFWugBJVBQwMVX/gO+8I3xnfGFJr78mvHi8/KbPHmEnS07Ae8qAZ+DXZ+D/cA6R0EPPx75Of5pj5OTIMdnDjg5DXL66ojTn484Pj3k+PQIYddjx+e24d9axre1zK7PyV7Aze7OBnsBF4FdFwH/Ogd7Lg6DHg4PfQSDOxwc+Nnf9yI45gz4XYv4XFa8m1Z2vOsE/Jvs+DfweZy4XSusL5lZndVjmTSwtmbDt72CZ2uFbfcqwpZz4Sz2uGx4XTbc61amJ0xotRo6OjppkbZjHBml8bunpKWk8qjya5ZmjCzNmlhZNCP4tld5ze91srI8R6tUilj8lLrG5zQ2SXnyTEJ5hZi4qGhCzr2NKCmB6XEti9NGLD/oEM5mrttw2GdpqK8nOSmFiPBwKr/5lsFRC90DegoL7xMdFkJMWAi14kcsLUyemZnQI/h9bnxeN+pBFSLRDc69+w5vvfkGWaIU9F3P0UnrkVQWk5/xCV99mYVuoIepUQ2WcS1jwzIE75YTu22Oyqpq4mJiiQm/SHToeT6OuMTDglyK7peQf+8BdY/LkLc1YBlVM2lQYtYrMA29RLBOG5F1NpP7RQ6fpSaQk36dG/FXiAy9wPUkETfzS8nKKUT6opl5s555s47ZcQ3To2rGdAoE02A3jdVllORlIy7OpeR2OnfS4ki6GkpE2AekZd4hNSsPSX091plxZicMmEeGGNOr0A32Iwx0Smirq0QprUXeUsuzslweZCeTlfgRVy5fIDY+ke+LcvilvQqHUcHosAqDWo5W2YuypxVhRNWBWdPD/IiSGb2MvqYniIuyuZuRSMKHoRREXeTXqlT+6yzl1XAbU/pBxrRKdAN9qF62ISxOaLBbDMyPD2ExKhnqbqau4i7Fn4v49NpVSqPe56Agmr8kefyhrsOmUzCiljOk6KO/qx3BaZ1kY2ka25SRKcMAenkH0toqynMyuJ0Sz83Iy5hSQ/j9cRr/9Fawp37BhEaOVtGLrKsVYc02g2NxEuuUCcvrczT9yNsk1JTlU5SZTFZcBI2x5zkuiOJf6T1+G6zBoupCJ+tC2d2K4Nl04Fyawz5vZmHSyIReyUB3C03VDym/lc6txEjKIt9jLeMSfzdk8udQDVZlK3pZJ6oeKf8DaghvRLQAO+gAAAAASUVORK5CYII=" InformativeScreenshot="7c7da4805152e2177c1ad7f953d3ea9c.jpg" Reference="QUyr5HjRO0207_LWey3M3w/DZMHxGj72Ua_-niX1_67VQ" Selector="&lt;html app='chrome.exe' title='Practice Software Testing - Toolshop - v5.0' /&gt;" Url="https://practicesoftwaretesting.com/*" Version="V2">
                 <uix:TargetApp.Arguments>
                   <InArgument x:TypeArguments="x:String" />
                 </uix:TargetApp.Arguments>
@@ -393,13 +572,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="555.2,229.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,234" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="521.6,169.6" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Error">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="524,170" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Error">
                 <ui:LogMessage.Message>
                   <InArgument x:TypeArguments="x:Object">
                     <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">"System Error Occurred: " + exception.Message</CSharpValue>
@@ -411,7 +590,7 @@
         </Catch>
       </TryCatch.Catches>
       <TryCatch.Finally>
-        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="555.2,94.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="558,94" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>

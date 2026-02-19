@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="RKevQ_2oQUqUz7GpI_Mczg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="eckn3zo1CESUk4Dyc5GJgg" Reference="QUyr5HjRO0207_LWey3M3w/wC7TcoGIJk2H_zQqJ52FRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" DesignTimeRectangle="975, 353, 795, 120" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' data-test='product-name' /&gt;" Guid="21da4476-318b-46c5-a944-801b5c927aff" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="6e86291b44f31c767bf9cae56f5ab143.jpg" xmlns="">0eI3EsC0KcEa4-diKyoW6Zg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS5DHGCDAYRNEGEXE7S32SV" DesignTimeRectangle="813, 284, 636, 96" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' data-test='product-name' /&gt;" Guid="21da4476-318b-46c5-a944-801b5c927aff" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0dd6b4a4214eb8c2704b327027fcc416.jpg" xmlns="">0lGbpofbllUivVMPnaUVNZA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>

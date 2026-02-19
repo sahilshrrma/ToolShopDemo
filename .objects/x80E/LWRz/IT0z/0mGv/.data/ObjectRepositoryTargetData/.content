@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="na_mb3_dNUWbBHK-Ci1YZA" Reference="QUyr5HjRO0207_LWey3M3w/0mGvuz7UvUW8wFMzrh_reg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="XVRMXz2_zEeWMF_dGN-pPA" Reference="QUyr5HjRO0207_LWey3M3w/0mGvuz7UvUW8wFMzrh_reg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" CVScreenId="cc978908-f030-4e41-a55b-9330b90d74c3" CvElementArea="973, 741, 166, 51" CvTextArea="1022, 757, 104, 19" CvTextArgument="Add to cart" CvType="Button" DesignTimeRectangle="975, 742, 166, 47" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="ff680355-682d-42b1-b842-7e090c244b42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="3c3d2402a2db773bf3db237e964b3349.jpg" xmlns="">0KbZIxgO_hE22SJL_u5imWw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHS1ZJ5X5859HN7G9ZF6WE7D" CVScreenId="cc978908-f030-4e41-a55b-9330b90d74c3" DesignTimeRectangle="813, 722, 133, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-add-to-cart' tag='BUTTON' aaname='Add to cart ' /&gt;" Guid="ff680355-682d-42b1-b842-7e090c244b42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Claw Hammer with Shock Reduction Grip - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7d90b993-ca6d-4ba2-bebd-389a5803079e" CvTextArea="811, 740, 211, 19" CvTextArgument="Vestibulum vel dapibus dolor." CvType="Text" DesignTimeRectangle="811, 740, 211, 19" ElementType="Text" Guid="1cafc217-2a0f-454e-8600-f79b18dce082" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="68a53597b80260cc31e65b19da2441f7.jpg" xmlns="">0gqVDMg1fRUGidaM6p3eIWg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>

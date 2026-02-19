@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="_wyrPF8gWEaXxU6CUkqoag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" Url="practicesoftwaretesting.com/product/01KHT7R4DYAPJRCM293M9PVPCD" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

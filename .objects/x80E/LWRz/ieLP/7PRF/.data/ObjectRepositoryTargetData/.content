@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IUMnXLeLhUq_1cFAV1lXNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/product/01KHT7R4DYAPJRCM293M9PVPCD" CVScreenId="7f7081f6-d705-48b6-957e-a3d492e55260" CvTextArea="811, 292, 347, 34" CvTextArgument="Combination Pliers" CvType="Text" DesignTimeRectangle="813, 284, 636, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="f5b1cd92-0a2e-4ebb-b7f1-f70994944142" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Combination Pliers - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f91efc7cdbd2b466ee05f678a290ea32.jpg" xmlns="">0PiAUyLdcD0ioQqi20NhWow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
