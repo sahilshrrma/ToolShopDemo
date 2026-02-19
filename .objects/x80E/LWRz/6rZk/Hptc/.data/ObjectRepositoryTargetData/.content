@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="LVQeJEBVhECu5l7cSsk3WA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="3pn6gvDg_EyTTBFZEP1T0A" Reference="QUyr5HjRO0207_LWey3M3w/Hptc3ujtjUqvBxlX7JI8OQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/account" CVScreenId="bae1f363-8e85-40c7-b66b-d72a55526b89" CvTextArea="160, 278, 213, 40" CvTextArgument="My account" CvType="Text" DesignTimeRectangle="160, 268, 1296, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="b666808b-b26c-454a-ada6-bdc46b0b94ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Overview - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="2f87642484e1328cf728c7a48ea56ca9.jpg" xmlns="">0thM_OmOuxU-vyQQ99CGfpA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="practicesoftwaretesting.com/account" CVScreenId="bae1f363-8e85-40c7-b66b-d72a55526b89" DesignTimeRectangle="133, 302, 1116, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="b666808b-b26c-454a-ada6-bdc46b0b94ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Overview - Practice Software Testing - Toolshop - v5.0' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79a6c61b615f17acb697381d95442cc2.jpg" xmlns="">06vZObDL3aEmFghJPbqiSXg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
